@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carbon.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:autofit="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+
+    <carbon.widget.ImageView
+        android:id="@+id/fullImg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop" />
+
+    <carbon.widget.RelativeLayout
+        android:id="@+id/mainContainer"
+        android:layout_width="match_parent"
+        android:layout_height="340dp"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="18dp"
+        android:background="@color/colorPrimary"
+        app:carbon_cornerRadius="40dp"
+        app:carbon_elevation="14dp"
+        app:carbon_elevationShadowColor="@color/colorPrimaryDark">
+
+        <carbon.widget.ImageView
+            android:id="@+id/smallImg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@color/colorPrimary" />
+
+        <bestquotes.aboutlive.com.AutoResizeTextView
+            android:id="@+id/quoteTxt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/quoted_byTxt"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="14dp"
+            android:fontFamily="@font/main_font"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <carbon.widget.TextView
+            android:id="@+id/quoted_byTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/translucent"
+            android:fontFamily="@font/main_font"
+            android:paddingStart="12dp"
+            android:paddingTop="3dp"
+            android:paddingEnd="12dp"
+            android:paddingBottom="3dp"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:carbon_cornerRadius="14dp" />
+
+        <com.tuyenmonkey.mkloader.MKLoader
+            android:id="@+id/loading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            app:mk_color="@color/colorAccent"
+            app:mk_type="TwinFishesSpinner" />
+
+    </carbon.widget.RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_above="@id/bottomOptionsContainer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:background="@color/white" />
+
+    <carbon.widget.LinearLayout
+        android:id="@+id/bottomOptionsContainer"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <carbon.widget.ImageView
+            android:id="@+id/copyImg"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="18dp"
+            android:src="@drawable/copy"
+            app:carbon_rippleColor="@color/colorAccent"
+            app:carbon_rippleStyle="background"
+            app:carbon_tint="@color/white" />
+
+        <carbon.widget.ImageView
+            android:id="@+id/shareImg"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="18dp"
+            android:src="@drawable/share"
+            app:carbon_rippleColor="@color/colorAccent"
+            app:carbon_rippleStyle="background"
+            app:carbon_tint="@color/white" />
+
+        <carbon.widget.ImageView
+            android:id="@+id/downloadImg"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="18dp"
+            android:src="@drawable/download"
+            app:carbon_rippleColor="@color/colorAccent"
+            app:carbon_rippleStyle="background"
+            app:carbon_tint="@color/white" />
+
+    </carbon.widget.LinearLayout>
+
+</carbon.widget.RelativeLayout>

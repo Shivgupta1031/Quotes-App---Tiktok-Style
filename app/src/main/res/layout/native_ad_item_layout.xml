@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carbon.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:autofit="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/adRootView"
+    android:background="@color/colorPrimaryDark">
+
+    <carbon.widget.ImageView
+        android:id="@+id/fullImg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop" />
+
+    <bestquotes.aboutlive.com.TemplateView
+        android:id="@+id/nativeTemplateView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        app:gnt_template_type="@layout/gnt_medium_template_view" />
+
+</carbon.widget.RelativeLayout>

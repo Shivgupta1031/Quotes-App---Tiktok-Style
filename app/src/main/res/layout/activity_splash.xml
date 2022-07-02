@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carbon.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context="bestquotes.aboutlive.com.SplashActivity">
+
+    <ImageView
+        android:id="@+id/appIcon"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/app_icon" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/appIcon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/main_font"
+        android:text="@string/app_name"
+        android:textColor="@color/white"
+        android:textSize="22sp" />
+
+    <com.tuyenmonkey.mkloader.MKLoader
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        app:mk_color="@color/colorAccent"
+        app:mk_type="Worm" />
+
+</carbon.widget.RelativeLayout>

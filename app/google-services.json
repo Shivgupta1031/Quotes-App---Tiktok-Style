@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "740972684915",
+    "project_id": "quotes-about-love-e2232",
+    "storage_bucket": "quotes-about-love-e2232.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:740972684915:android:09f4b172a213e64a77ac06",
+        "android_client_info": {
+          "package_name": "bestquotes.aboutlive.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "740972684915-r56tksdjukmlgl94kvi9qvddsk8b9qgs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "bestquotes.aboutlive.com",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "740972684915-bs4rpo4n8qbrdbt40cat8i2hnldtsj31.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIfObx13GrPJphUuZB-l9xppdY-i1DezQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "740972684915-bs4rpo4n8qbrdbt40cat8i2hnldtsj31.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carbon.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingStart="16dp"
+    android:paddingTop="12dp"
+    android:paddingEnd="16dp"
+    android:paddingBottom="12dp"
+    app:carbon_cornerRadius="12dp">
+
+    <carbon.widget.TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/main_font"
+        android:text="Ads Break"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <com.tuyenmonkey.mkloader.MKLoader
+        android:id="@+id/loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="6dp"
+        app:mk_color="@color/colorAccent"
+        app:mk_type="TwinFishesSpinner" />
+
+</carbon.widget.LinearLayout>
