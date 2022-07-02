@@ -1,4 +1,4 @@
-<img src="https://document-export.canva.com/UJsJ4/DAFFLbUJsJ4/11/thumbnail/0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUHWDTJW6UD%2F20220701%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220701T210743Z&X-Amz-Expires=34939&X-Amz-Signature=28c1b2337047dc9184f32a6c563eb52ece051384e754982ddc9ade59cb3f3884&X-Amz-SignedHeaders=host&response-expires=Sat%2C%2002%20Jul%202022%2006%3A50%3A02%20GMT"></img>
+<img src="https://star-hero-app-media.sgp1.cdn.digitaloceanspaces.com/images/Android Studio App.png"></img>
 
 App Features :
 
