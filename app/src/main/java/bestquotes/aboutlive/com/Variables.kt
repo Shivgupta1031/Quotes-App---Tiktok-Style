@@ -8,10 +8,10 @@ class Variables {
         val TAG: String = "MyTag"
 
         @JvmStatic
-        val API_KEY: String = "key3WQzZcQI8dAXD7"
+        val API_KEY: String = ""
 
         @JvmStatic
-        val BASE_KEY: String = "appjO9FlcXEjm0UV0"
+        val BASE_KEY: String = ""
 
         @JvmStatic
         val AIRTABLE_QUOTES_TABLE_URL: String =
