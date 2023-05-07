@@ -1,4 +1,4 @@
-<img src="https://star-hero-app-media.sgp1.cdn.digitaloceanspaces.com/images/Android Studio App.png"></img>
+<img src="https://img.youtube.com/vi/F3k9TmWzmmI/maxresdefault.jpg"></img>
 
 App Features :
 
@@ -13,6 +13,6 @@ App Features :
 *Airtable is used as database which is completely FREE!*
 
 
-Demo App : https://bit.ly/quotes_app_sh_developer
+Demo App : https://bit.ly/quote_app_sh_developer
 
 Youtube Video : https://www.youtube.com/watch?v=F3k9TmWzmmI
